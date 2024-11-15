@@ -25,7 +25,7 @@
 
 			this.vx = 0;
 			this.vy = 0;
-			this.hue = Math.random() * 60 + 240;
+			this.hue = Math.random() * 20 + 540;
 		}
 
 		get r() {
@@ -124,7 +124,7 @@
 				$mouseStrength * ($mousePressed * 0.125 + 0.125)
 			})`
 		);
-		gradient.addColorStop(1, `hsla(270, 100%, 50%, 0)`);
+		gradient.addColorStop(1, `hsla(270, 100%, 100%, 0)`);
 
 		ctx.fillStyle = gradient;
 		ctx.fill();
