@@ -8,6 +8,7 @@
 	import Envelope from '$lib/components/icons/Envelope.svelte';
 	import Spotify from '$lib/components/icons/Spotify.svelte';
 	import Twitter from '$lib/components/icons/Twitter.svelte';
+	import Discord from '$lib/components/icons/Discord.svelte';
 	import Meta from '$lib/components/Meta.svelte';
 </script>
 
@@ -22,6 +23,11 @@
 	</p>
 
 	<div class="mt-4 flex gap-6">
+
+		<SocialLink href="https://discord.gg/KTKpvNSVGF" name="Discord">
+			<Discord />
+		</SocialLink>
+
 		<SocialLink href="https://github.com/iconicmurph" name="GitHub">
 			<GitHub />
 		</SocialLink>
